@@ -1,0 +1,25 @@
+package cn.chenmanman.manmancommonsystem.model.entity.auth;
+
+import cn.chenmanman.manmancommonsystem.model.entity.common.BaseEntity;
+import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
+
+@Data
+@ToString(callSuper = true)
+@EqualsAndHashCode(callSuper = true)
+@AllArgsConstructor
+@TableName("man_menu")
+public class ManManMenu extends BaseEntity {
+    private String name;
+
+    private Long parentId;
+
+    private String perms;
+
+    private String path;
+
+    private String component;
+}
