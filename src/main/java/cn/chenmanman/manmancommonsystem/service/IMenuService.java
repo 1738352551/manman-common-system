@@ -1,4 +1,7 @@
 package cn.chenmanman.manmancommonsystem.service;
 
-public interface IMenuService {
+import cn.chenmanman.manmancommonsystem.model.entity.auth.ManManMenu;
+import com.baomidou.mybatisplus.extension.service.IService;
+
+public interface IMenuService  extends IService<ManManMenu> {
 }

@@ -1,4 +1,7 @@
 package cn.chenmanman.manmancommonsystem.service;
 
-public interface IRoleService {
+import cn.chenmanman.manmancommonsystem.model.entity.auth.ManManRole;
+import com.baomidou.mybatisplus.extension.service.IService;
+
+public interface IRoleService extends IService<ManManRole> {
 }

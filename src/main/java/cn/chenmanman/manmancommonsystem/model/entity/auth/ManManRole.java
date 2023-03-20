@@ -13,5 +13,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @TableName("man_role")
 public class ManManRole extends BaseEntity {
+
+    private static final long serialVersionUID = -9209376461031103554L;
     private String name;
 }
